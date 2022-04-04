@@ -7,7 +7,7 @@ include \masm32\include\kernel32.inc
 includelib \masm32\lib\kernel32.lib  
 
 .data
-output db "Hello World!", 0ah, 0h
+output db "Welcome to F&O's Magical Music Box", 0ah, 0h
 
 .code 
 start: 
