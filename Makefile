@@ -3,3 +3,4 @@ install:
 	ld main.o
 clean:
 	rm a.out
+	rm main.o
