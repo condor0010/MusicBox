@@ -4,7 +4,7 @@
 section .data
     scream db 'aaaa' ; should replace with actual grevince
     len equ $ - scream
-    filename db 'god' ; the void into witch we scream
+    filename db '/dev/null' ; the void into witch we scream
     lenfilename equ $ - filename ; length of string "/dev/null"
     fd dq 0
 section .text
