@@ -1,5 +1,6 @@
 ; -- Screaming Into The Void --
 ; --   by Faloc & Orcinolo    --
+; do ya get the ^ joke
 ; data goes at the top, despite waht we read in the nasm docs, mostly just used to it
 section .data
     scream db 'aaaa' ; should replace with actual grevince
